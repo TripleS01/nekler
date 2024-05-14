@@ -7,7 +7,7 @@ export default function NavBar() {
                 <div className="header-left" >
 
                     <div className="logo">
-                        <img src="/static/back.tshirt.svg" alt="Logo" />
+                        <img src="./static/back.tshirt.svg" alt="Logo" />
                     </div>
                     <div className="site-name" >Nekler&apos;s Garage</div>
                 </div>
