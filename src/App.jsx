@@ -15,6 +15,7 @@ import Polishing from "./components/Services/More/Polishing"
 import PolishingHeadlights from "./components/Services/More/PolishingHeadlights"
 import Engraving from "./components/Services/More/Engraving"
 import Reupholstery from "./components/Services/More/Reupholstery"
+import NotFound from "./components/Main/NotFound"
 
 function App() {
 
@@ -37,6 +38,8 @@ function App() {
 
         <Route path={Path.Merch} element={<Merch />} />
         <Route path={Path.OurTeam} element={<OurTeam />} />
+
+        <Route path="*" element={<NotFound />} />
 
       </Routes >
 

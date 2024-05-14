@@ -6,7 +6,7 @@ export default function Merch() {
     return (
         <>
             <section className="merch-section">
-                <div className="message">
+                <div className="message-merch">
                     <h2>If you want to support what we are doing, here are some of the ways!</h2>
                 </div>
                 <div className="merch-container">
