@@ -1,0 +1,88 @@
+.service-section {
+  color: #2F3C7E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.service-info {
+  text-align: center;
+  color: #2F3C7E;
+}
+
+.service-info h2 {
+  font-size: 1.4rem;
+}
+
+.cardService {
+  background-color: #141414;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 500px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 500ms ease-out
+}
+
+.cardService:hover {
+  transform: scale(1.05);
+}
+
+.cardService img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.cardService-content {
+  text-align: center;
+  padding: 10px;
+}
+
+.titleService {
+  text-align: center;
+  color: #2F3C7E;
+}
+
+.btnService {
+  border-radius: 5px;
+  background-color: #2F3C7E;
+  color: #f39c12;
+  font-weight: bold;
+  text-decoration: none;
+  bottom: 10px;
+  padding: 5px 25px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btnService:hover {
+  background-color: #3d4a64;
+}
+
+@media (max-width: 768px) {
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cardService {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .message-order,
+  .service-info {
+    text-align: center;
+  }
+}
