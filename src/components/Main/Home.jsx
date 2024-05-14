@@ -16,18 +16,18 @@ export default function Home() {
                 <div className="home-container">
 
                     <div className="home-card">
-                        <img src="./static/IMG_0928.jpg" alt="nekler" />
+                        <img src="static/IMG_0928.jpg" alt="nekler" />
 
                         <Link to={Path.Merch} className="button-home">From us for you</Link>
                     </div>
 
                     <div className="home-card">
-                        <img src="./static/IMG_0033.jpg" alt="nekler" />
+                        <img src="static/IMG_0033.jpg" alt="nekler" />
                         <Link to={Path.Services} className="button-home">Services</Link>
                     </div>
 
                     <div className="home-card">
-                        <img src="./static/IMG_4292.jpg" alt="nekler" />
+                        <img src="static/IMG_4292.jpg" alt="nekler" />
                         <Link to={Path.OurTeam} className="button-home">Our Team</Link>
                     </div>
                 </div>
