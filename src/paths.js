@@ -1,5 +1,6 @@
 const Path = {
     Home: '/',
+    HomeHome: '/home',
     Clothes: '/merch/clothes-gallery',
     Stickers: '/merch/stickers-gallery',
     Services: '/services',

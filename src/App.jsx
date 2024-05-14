@@ -25,6 +25,7 @@ function App() {
 
       <Routes>
         <Route path={Path.Home} element={<Home />} />
+        <Route path={Path.HomeHome} element={<Home />} />
 
         <Route path={Path.Clothes} element={<Clothes />} />
         <Route path={Path.Stickers} element={<Stickers />} />
