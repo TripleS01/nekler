@@ -1,0 +1,148 @@
+.section-merch-more {
+    margin-top: 100px;
+}
+
+.shop-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2F3C7E;
+}
+
+.shop-card-merch {
+    background-color: #808080;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 500ms ease-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.shop-card-merch-sticker {
+    background-color: #808080;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 500ms ease-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.product-merch img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-merch-sticker img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.shop-card-merch:hover {
+    transform: scale(1.15);
+}
+
+.shop-card-merch-sticker:hover {
+    transform: scale(1.15);
+}
+
+
+
+.title-merch,
+.description-merch {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description-merch {
+    color: #f39c12;
+}
+
+.cta-merch {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price-merch {
+    font-size: 1.2rem;
+    color: #2F3C7E;
+
+}
+
+.colors-merch,
+.size-merch {
+    font-size: 0.9rem;
+    color: #2F3C7E;
+}
+
+.price-merch-sticker,
+.size-merch-sticker {
+    font-size: 1rem;
+    color: #2F3C7E;
+}
+
+.message-order {
+    flex: auto;
+    text-align: center;
+    color: #2F3C7E;
+}
+
+.message-order-clothes {
+    margin-top: 20px;
+    flex: auto;
+    text-align: center;
+    color: #2F3C7E;
+}
+
+.message-order-clothes a {
+    text-decoration: none;
+    color: #2F3C7E;
+}
+
+.message-order-clothes a:hover {
+    color: #f39c12;
+}
+
+.message-order a {
+    text-decoration: none;
+    color: #2F3C7E;
+}
+
+.message-order a:hover {
+    color: #f39c12;
+}
+
+@media (max-width: 768px) {
+
+    .message-order-clothes,
+    .message-comming-soon {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .shop-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-card-merch {
+        width: 100%;
+    }
+}

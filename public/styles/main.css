@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/tamworth-gothic');
+
+#root {
+    font-family: 'Tamworth Gothic', sans-serif;
+}
+
+.message-comming-soon {
+    flex: auto;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+}

@@ -1,0 +1,84 @@
+.home-section {
+  color: #2F3C7E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.message-home p {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.home-card {
+  background-color: #141414;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 500px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 500ms ease-out;
+
+  position: relative;
+}
+
+.home-card:hover {
+  transform: scale(1.05);
+}
+
+.home-card img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.button-home {
+  border-radius: 5px;
+  background-color: #2F3C7E;
+  color: #f39c12;
+  font-weight: bold;
+  text-decoration: none;
+  bottom: 10px;
+  padding: 5px 25px;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.button-home:hover {
+  background-color: #3d4a64;
+}
+
+@media (max-width: 768px) {
+  .home-message {
+    text-align: center;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-card {
+    width: 100%;
+  }
+
+  .button-home {
+    margin-top: 0;
+  }
+}
